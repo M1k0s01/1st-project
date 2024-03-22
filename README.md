@@ -1,3 +1,3 @@
-# 1-st project
+# 1st-project
 
 My first web page for CodersLab project.
