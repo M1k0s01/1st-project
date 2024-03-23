@@ -30,15 +30,23 @@ h2 {
 }
 
 .container {
-  width: 1352px;
+  width: 90%;
+  max-width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 .btn {
   color: white;
   font-weight: bold;
   display: inline-block;
-  padding: 16px 65px;
+  padding: 12px 40px;
   border-radius: var(--button-radius);
   border: none;
 }
