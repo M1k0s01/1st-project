@@ -35,10 +35,27 @@ h2 {
   margin: 0 auto;
 }
 
+.btn {
+  padding: 16px 40px;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
     padding: 0 20px;
+  }
+}
+.btn {
+  padding: 12px 30px;
+}
+
+.statistics__container {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .statistics__single {
+    margin-bottom: 20px;
+    max-width: calc(50% - 20px);
   }
 }
 
@@ -46,7 +63,7 @@ h2 {
   color: white;
   font-weight: bold;
   display: inline-block;
-  padding: 12px 40px;
+  padding: 16px 65px;
   border-radius: var(--button-radius);
   border: none;
 }
