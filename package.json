@@ -1,0 +1,13 @@
+{
+  "name": "1st-project",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "sass": "^1.75.0",
+    "http-server": "^0.12.3"
+  }
+}
